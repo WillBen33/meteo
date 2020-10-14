@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Sticky Footer Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sticky-footer/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Sticky footer -->
+    <link href="css/sticky-footer.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <meta name="theme-color" content="#563d7c">
+
+
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- <div id="myData"></div> -->
+
+    <div class="container justify-content-center">
+        <div class="row">
+            <div class="col-md-auto" id="cityDiv"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-auto" id="weatherDiv"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-auto" id="tempDiv"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-auto" id="currDayDiv"></div>
+            <div class="col-md-auto" id="tempMinMax">
+                <span class="bold" id="tempMax"></span>&nbsp;<span class="muted" id="tempMin"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- <table class="table" id="hourWeather">
+            <thead>
+                <tr id="weatherOverHours">
+                    <th>Maintenant</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="weatherIcon"></tr>
+                <tr id="tableTempNow"></tr>
+            </tbody>
+        </table> -->
+
+        <table class="table" id="week">
+            <thead>
+                <tr id="day"></tr>
+            </thead>
+            <tbody>
+                <tr id="icon"></tr>
+                <tr id="temp"></tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="js/fetch.js"></script>
+</body>
+
+</html>
